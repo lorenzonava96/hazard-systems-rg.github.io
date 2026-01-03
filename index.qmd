@@ -1,3 +1,5 @@
+![](assets/hero.jpg){.hero-banner}
+
 ---
 title: "Hazard Systems Research Group"
 page-layout: full
@@ -5,7 +7,7 @@ page-layout: full
 
 <div class="hero">
   <span class="pill">King’s College London</span>
-  <h1>Hazard Systems Research Group (HSRG)</h1>
+  <h1>Hazard Systems Research Group (HazSys)</h1>
   <p><strong>AI-enabled multihazard forecasting, early warning systems, and response.</strong></p>
   <p>
     We develop methods and tools that help anticipate complex hazard events, support effective warning,

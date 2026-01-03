@@ -1,4 +1,16 @@
 /* Minimal aesthetic */
+
+:root{
+  --accent: #1f6feb;      /* primary */
+  --accent-2: #0ea5e9;    /* secondary */
+  --ink: #0b1220;         /* headings */
+  --muted: #52606d;       /* body text */
+  --bg: #ffffff;
+  --bg-soft: #f5f7fb;     /* section background */
+  --border: rgba(15,23,42,.12);
+}
+
+
 :root { --accent: #4b6fff; }
 .navbar { font-weight: 600; }
 .hero { padding: 4rem 0; }
@@ -31,4 +43,53 @@ footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }
 
 .quarto-title-banner {
   display: none;
+}
+
+body { color: var(--muted); }
+h1, h2, h3, h4 { color: var(--ink); }
+
+a { color: var(--accent); }
+a:hover { color: var(--accent-2); }
+
+.pill {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: white;
+}
+
+.card{
+  border: 1px solid var(--border);
+  background: var(--bg);
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+}
+
+.hero-banner{
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin: 0 0 1.25rem 0;
+  border: 1px solid var(--border);
+}
+
+.people-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.person{
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--bg);
+}
+
+.headshot{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 2px solid rgba(31,111,235,.25);
+  margin-bottom: .75rem;
 }

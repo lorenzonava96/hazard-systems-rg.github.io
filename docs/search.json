@@ -1,31 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "The Hazard Systems Research Group (HazSys) conducts research on the modelling and analysis of multihazard risk and resilience, with a particular focus on the use of artificial intelligence and data-driven methods to understand complex hazard systems.\nOur research focuses on AI-enabled multihazard forecasting, early warning systems, and response, combining data-driven models with system-level perspectives on risk and resilience.\n\n\n\nMultihazard and cascading risk modelling\n\nAI and machine learning for hazard analysis\n\nSystem-level approaches to risk and resilience\n\nDecision support for risk reduction and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
+    "text": "![](assets/people/lorenzo.jpg){.headshot}\n**Lorenzo Nava**  \nAI+ Senior Fellow, King’s College London  \n*AI-enabled multihazard forecasting, early warning systems, and response*"
   },
   {
-    "objectID": "about.html#hazard-systems-research-group",
-    "href": "about.html#hazard-systems-research-group",
-    "title": "About",
+    "objectID": "people.html#leadership",
+    "href": "people.html#leadership",
+    "title": "People",
     "section": "",
-    "text": "The Hazard Systems Research Group (HazSys) conducts research on the modelling and analysis of multihazard risk and resilience, with a particular focus on the use of artificial intelligence and data-driven methods to understand complex hazard systems.\nOur research focuses on AI-enabled multihazard forecasting, early warning systems, and response, combining data-driven models with system-level perspectives on risk and resilience.\n\n\n\nMultihazard and cascading risk modelling\n\nAI and machine learning for hazard analysis\n\nSystem-level approaches to risk and resilience\n\nDecision support for risk reduction and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
+    "text": "![](assets/people/lorenzo.jpg){.headshot}\n**Lorenzo Nava**  \nAI+ Senior Fellow, King’s College London  \n*AI-enabled multihazard forecasting, early warning systems, and response*"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hazard Systems Research Group",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "King’s College London\n\n\nAI-enabled multihazard forecasting, early warning systems, and response.\n\n\nWe develop methods and tools that help anticipate complex hazard events, support effective warning, and improve decision-making for response and resilience."
+    "text": "Add a curated list. If you keep a papers.bib, you can render it:\n\n\nOr keep it simple:\n\nTitle, Authors — Venue (Year). PDF · Code\nTitle, Authors — Venue (Year). PDF · Code"
   },
   {
-    "objectID": "index.html#working-with-us",
-    "href": "index.html#working-with-us",
-    "title": "Hazard Systems Research Group",
-    "section": "Working with us",
-    "text": "Working with us\n\nInterested in a PhD / postdoc / collaboration? See Join Us.\nFor enquiries: lorenzo.nava@kcl.ac.uk"
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "List selected projects with short blurbs and links. Consider a simple table:\n\n\n\nProject\nWhat\nLink\n\n\n\n\nProject A\n1–2 lines\nhttps://github.com/\n\n\nProject B\n1–2 lines\nhttps://github.com/"
+  },
+  {
+    "objectID": "posts/2025-11-12-were-live.html",
+    "href": "posts/2025-11-12-were-live.html",
+    "title": "We’re live!",
+    "section": "",
+    "text": "Welcome! This website is built with Quarto and hosted on GitHub Pages."
   },
   {
     "objectID": "join-us.html",
@@ -63,24 +70,24 @@
     "text": "Funding\nIf you already have (or are pursuing) funding, mention the scheme and timelines."
   },
   {
-    "objectID": "posts/2025-11-12-were-live.html",
-    "href": "posts/2025-11-12-were-live.html",
-    "title": "We’re live!",
-    "section": "",
-    "text": "Welcome! This website is built with Quarto and hosted on GitHub Pages."
+    "objectID": "index.html#working-with-us",
+    "href": "index.html#working-with-us",
+    "title": "Hazard Systems Research Group",
+    "section": "Working with us",
+    "text": "Working with us\n\nInterested in a PhD / postdoc / collaboration? See Join Us.\nFor enquiries: lorenzo.nava@kcl.ac.uk"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "List selected projects with short blurbs and links. Consider a simple table:\n\n\n\nProject\nWhat\nLink\n\n\n\n\nProject A\n1–2 lines\nhttps://github.com/\n\n\nProject B\n1–2 lines\nhttps://github.com/"
+    "text": "The Hazard Systems Research Group (HazSys) conducts research on the modelling and analysis of multihazard risk and resilience, with a particular focus on the use of artificial intelligence and data-driven methods to understand complex hazard systems.\nOur research focuses on AI-enabled multihazard forecasting, early warning systems, and response, combining data-driven models with system-level perspectives on risk and resilience.\n\n\n\nMultihazard and cascading risk modelling\n\nAI and machine learning for hazard analysis\n\nSystem-level approaches to risk and resilience\n\nDecision support for risk reduction and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "about.html#hazard-systems-research-group",
+    "href": "about.html#hazard-systems-research-group",
+    "title": "About",
     "section": "",
-    "text": "Add a curated list. If you keep a papers.bib, you can render it:\n\n\nOr keep it simple:\n\nTitle, Authors — Venue (Year). PDF · Code\nTitle, Authors — Venue (Year). PDF · Code"
+    "text": "The Hazard Systems Research Group (HazSys) conducts research on the modelling and analysis of multihazard risk and resilience, with a particular focus on the use of artificial intelligence and data-driven methods to understand complex hazard systems.\nOur research focuses on AI-enabled multihazard forecasting, early warning systems, and response, combining data-driven models with system-level perspectives on risk and resilience.\n\n\n\nMultihazard and cascading risk modelling\n\nAI and machine learning for hazard analysis\n\nSystem-level approaches to risk and resilience\n\nDecision support for risk reduction and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
   }
 ]
