@@ -3,24 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "Lorenzo Nava"
-  description: "AI+ Senior Fellow · Scientist"
+  title: "Hazard Systems Research Group"
+  description: "AI-enabled modelling of multihazard risk and resilience"
   navbar:
     logo: assets/logo.png
     right:
       - text: About
         href: about.qmd
+      - text: People
+        href: about.qmd
       - text: Publications
         href: publications.qmd
       - text: Projects
         href: projects.qmd
+      - text: Join Us
+        href: about.qmd
       - text: Posts
         href: posts/
-      - text: CV
-        href: cv.pdf
   page-footer:
     center: |
-      © {{< var year >}} Lorenzo Nava · Built with Quarto · Hosted on GitHub Pages
+      © 2026 Hazard Systems Research Group · Built with Quarto · Hosted on GitHub Pages
+
 format:
   html:
     theme: cosmo
