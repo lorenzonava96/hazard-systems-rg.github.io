@@ -6,9 +6,15 @@ title: People
 
 <div class="people-grid">
   <div class="person">
-    ![](assets/people/lorenzo.jpg){.headshot}
+    ![](assets/people/LN.jpg){.headshot}
     **Lorenzo Nava**  
     AI+ Senior Fellow, King’s College London  
-    *AI-enabled multihazard forecasting, early warning systems, and response*
+    <span class="role">Group Lead</span>
   </div>
 </div>
+
+## Members
+We are currently recruiting. See [Join Us](join-us.qmd).
+
+## Collaborators & Affiliates
+List collaborators here.

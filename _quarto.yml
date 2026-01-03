@@ -5,21 +5,21 @@ project:
 website:
   title: "Hazard Systems Research Group"
   description: "AI-enabled multihazard forecasting, early warning systems, and response"
-  navbar:
-    logo: assets/logo.png
-    right:
-      - text: About
-        href: about.qmd
-      - text: People
-        href: people.qmd
-      - text: Publications
-        href: publications.qmd
-      - text: Projects
-        href: projects.qmd
-      - text: Join Us
-        href: about.qmd
-      - text: Posts
-        href: posts/
+navbar:
+  logo: assets/logo.png
+  right:
+    - text: About
+      href: about.qmd
+    - text: People
+      href: people.qmd
+    - text: Publications
+      href: publications.qmd
+    - text: Projects
+      href: projects.qmd
+    - text: Join Us
+      href: join-us.qmd
+    - text: Posts
+      href: posts/
   page-footer:
     center: |
       © 2026 Hazard Systems Research Group · Built with Quarto · Hosted on GitHub Pages
