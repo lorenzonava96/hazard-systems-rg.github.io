@@ -1,0 +1,15 @@
+---
+title: Publications
+---
+
+Add a curated list. If you keep a `papers.bib`, you can render it:
+
+```{=html}
+<!-- Example: -->
+<!-- <div id="pubs"></div> -->
+```
+
+Or keep it simple:
+
+1. **Title**, Authors — Venue (Year). [PDF](#) · [Code](#)
+2. **Title**, Authors — Venue (Year). [PDF](#) · [Code](#)

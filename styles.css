@@ -1,0 +1,10 @@
+/* Minimal aesthetic */
+:root { --accent: #4b6fff; }
+.navbar { font-weight: 600; }
+.hero { padding: 4rem 0; }
+.hero h1 { margin-bottom: .25rem; }
+.hero p { opacity: .8; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.card { padding: 1rem; border-radius: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+.pill { display:inline-block; padding:.2rem .6rem; border-radius:999px; background:var(--accent); color:white; font-size:.8rem; }
+footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }

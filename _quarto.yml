@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lorenzo Nava"
+  description: "AI+ Senior Fellow · Scientist"
+  navbar:
+    logo: assets/logo.png
+    right:
+      - text: About
+        href: about.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Posts
+        href: posts/
+      - text: CV
+        href: cv.pdf
+  page-footer:
+    center: |
+      © {{< var year >}} Lorenzo Nava · Built with Quarto · Hosted on GitHub Pages
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+metadata-files:
+  - _meta.yml

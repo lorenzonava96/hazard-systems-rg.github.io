@@ -1,0 +1,12 @@
+---
+title: About
+---
+
+![](assets/avatar.png){width=120px}
+
+I'm a scientist and AI+ Senior Fellow. This page is a short bio—swap in the real story, highlight your values, and link to press/talks.
+
+- Email: your.email@example.com
+- X / Twitter: @yourhandle
+- Google Scholar: <https://scholar.google.com/>
+- ORCID: <https://orcid.org/>

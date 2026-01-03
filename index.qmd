@@ -1,0 +1,25 @@
+---
+title: "Lorenzo Nava"
+page-layout: full
+---
+
+<div class="hero">
+  <span class="pill">AI+ Senior Fellow</span>
+  <h1>Hello, I'm Lorenzo.</h1>
+  <p>I work at the intersection of AI systems and science. I lead and collaborate on research, build tools, and mentor teams.</p>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <h3>Research</h3>
+    <p>Safety, alignment, and scientific applications of machine learning.</p>
+  </div>
+  <div class="card">
+    <h3>Open-source</h3>
+    <p>Libraries and datasets to accelerate reproducible research.</p>
+  </div>
+  <div class="card">
+    <h3>Speaking & Mentoring</h3>
+    <p>Talks, tutorials, and advising for teams and students.</p>
+  </div>
+</div>
