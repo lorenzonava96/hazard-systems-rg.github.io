@@ -2,32 +2,47 @@
 title: Join Us
 ---
 
-We welcome collaborators and applicants interested in **AI-enabled multihazard forecasting,
-early warning systems, and response**.
+We welcome collaborators and applicants interested in **AI-enabled multi-hazard forecasting,
+early warning systems, and decision support**.
 
-## What we work on
-- Multihazard and cascading event modelling
+Our work combines machine learning, physical modelling, and uncertainty analysis to support
+risk-informed decisions for natural hazards.
+
+## Research themes
+
+- Multi-hazard and cascading event modelling
 - Machine learning for hazard detection and forecasting
 - Uncertainty-aware prediction and evaluation
 - End-to-end warning pipelines and decision support
 - Open tools, reproducible science, and real-world impact
 
-## Who we are looking for
-### PhD / MSc students
-Strong quantitative background (e.g., ML, statistics, physics, engineering, geoscience) and interest in hazards/resilience.
+## Opportunities
 
-### Postdocs
-Evidence of independent research, strong writing, and a clear agenda aligned with our themes.
+### PhD / MSc students
+Applicants with a strong quantitative background (e.g. machine learning, statistics, physics,
+engineering, or geoscience) and an interest in hazards and resilience.
+
+### Postdoctoral researchers
+Researchers with evidence of independent work, strong writing, and a clear research agenda
+aligned with the group’s themes.
+
+We are happy to support applications to competitive postdoctoral fellowships, including:
+
+- Marie Skłodowska-Curie Postdoctoral Fellowships
+- Newton International Fellowships
+- Royal Society or UKRI-funded schemes (where applicable)
 
 ### Research software / engineering
-Experience with ML tooling, data pipelines, and reproducibility.
+Researchers with experience in machine learning tooling, data pipelines, and reproducible research.
 
-## How to reach out
-Email **lorenzo.nava@kcl.ac.uk** with:
+## How to get in touch
+Please email **lorenzo.nava@kcl.ac.uk** with:
+
 - a short paragraph describing your interest,
 - a CV,
-- (optional) a link to papers / GitHub,
-- (optional) 1–2 project ideas.
+- (optional) links to publications or GitHub,
+- (optional) one or two project ideas.
 
 ## Funding
-If you already have (or are pursuing) funding, mention the scheme and timelines.
+If you already hold funding or are planning to apply for a specific scheme, please mention
+the programme and expected timelines.

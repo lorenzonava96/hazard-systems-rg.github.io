@@ -1,76 +1,115 @@
-/* Minimal aesthetic */
-
+/* =========================================================
+   THEME TOKENS (one source of truth)
+   ========================================================= */
 :root{
-  --accent: #1f6feb;      /* primary */
-  --accent-2: #0ea5e9;    /* secondary */
-  --ink: #0b1220;         /* headings */
-  --muted: #52606d;       /* body text */
+  /* Brand / accents */
+  --accent: #1f6feb;           /* primary links / UI */
+  --accent-2: #0ea5e9;         /* hover / secondary */
+  --accent-ochre: #c49a3a;     /* warm academic ochre */
+
+  /* Neutrals */
+  --ink: #0b1220;              /* headings */
+  --muted: #52606d;            /* body text */
   --bg: #ffffff;
-  --bg-soft: #f5f7fb;     /* section background */
+  --bg-soft: #f5f7fb;          /* optional soft backgrounds */
   --border: rgba(15,23,42,.12);
 }
 
-
-:root { --accent: #4b6fff; }
-.navbar { font-weight: 600; }
-.hero { padding: 4rem 0; }
-.hero h1 { margin-bottom: .25rem; }
-.hero p { opacity: .8; }
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
-.card { padding: 1rem; border-radius: 1rem; box-shadow: 0 10px 30px rgba(0,0,0,.06); }
-.pill { display:inline-block; padding:.2rem .6rem; border-radius:999px; background:var(--accent); color:white; font-size:.8rem; }
-footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }
-
-.hero {
-  padding: 3.5rem 0 2rem 0;
-}
-
-.hero h1 {
-  letter-spacing: -0.02em;
-}
-
-.hero p {
-  max-width: 70ch;
-}
-
-.cards .card h3 {
-  margin-top: 0;
-}
-
-.navbar-brand img {
-  max-height: 34px;
-}
-
-.quarto-title-banner {
-  display: none;
-}
-
+/* =========================================================
+   BASE
+   ========================================================= */
 body { color: var(--muted); }
 h1, h2, h3, h4 { color: var(--ink); }
 
 a { color: var(--accent); }
 a:hover { color: var(--accent-2); }
 
-.pill {
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  color: white;
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* =========================================================
+   NAV
+   ========================================================= */
+.navbar { font-weight: 600; }
+.navbar-brand img { max-height: 34px; }
+
+/* If you don't want Quarto's title banner anywhere */
+.quarto-title-banner { display: none; }
+
+/* =========================================================
+   TYPOGRAPHY ACCENTS (site-wide)
+   ========================================================= */
+.accent {
+  color: var(--accent-ochre);
+  font-weight: 600;
+}
+
+/* Section headings: subtle academic style */
+main h2 {
+  border-left: 4px solid var(--accent-ochre);
+  padding-left: 0.75rem;
+  border-bottom: none;
+}
+
+main h3 { color: #444; }
+
+/* Lists: keep markers visible + ochre */
+main ul li::marker { color: var(--accent-ochre); }
+
+/* If your theme hides bullets, uncomment these:
+main ul { list-style: disc; padding-left: 1.25rem; }
+main li { margin-bottom: 0.25rem; }
+*/
+
+/* =========================================================
+   HOMEPAGE SMALL ACCENT
+   ========================================================= */
+.home-separator {
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-ochre);
+  margin: 2.5rem auto 2rem auto;
+  border-radius: 2px;
+}
+
+/* =========================================================
+   CARDS (homepage + generic)
+   ========================================================= */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 .card{
-  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #e6e6e6;
   background: var(--bg);
-  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
-.hero-banner{
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 16px;
-  margin: 0 0 1.25rem 0;
-  border: 1px solid var(--border);
+.cards .card h3 { margin-top: 0; }
+
+/* Small ochre tick above card titles */
+.card h3::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: var(--accent-ochre);
+  margin-bottom: 0.5rem;
 }
 
+/* =========================================================
+   PEOPLE (people.qmd)
+   ========================================================= */
+
+/* Simple grid (if you use it elsewhere) */
 .people-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -92,10 +131,155 @@ a:hover { color: var(--accent-2); }
   object-fit: cover;
   border-radius: 999px;
   border: 2px solid rgba(31,111,235,.25);
-  margin-bottom: .75rem;
+  margin-bottom: .90rem;
 }
 
 .role{
   font-size: .9rem;
   color: var(--muted);
+}
+
+/* Editorial person cards */
+.people-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.person-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 16px;
+  align-items: center;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.person-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.person-role {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.person-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4a4f55;
+}
+
+.person-topics {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: #555;
+}
+
+/* =========================================================
+   HERO (homepage)
+   ========================================================= */
+.hero {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 50vh;
+  height: 55vh;
+  max-height: 550px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.75);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-overlay .hero-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-title {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 600;
+  opacity: 0.92;
+  margin: 0 0 0.4rem 0;
+}
+
+.hero-title .t-strong {
+  color: #fff;
+  font-weight: 750;
+}
+
+.hero-title .t-soft {
+  color: rgba(255,255,255,0.8);
+  font-weight: 600;
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  max-width: 42rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.hero-cta { margin-top: 1rem; }
+.hero-cta .btn { margin-right: 0.5rem; }
+
+/* =========================================================
+   BUTTONS (ochre variants)
+   ========================================================= */
+.btn-ochre {
+  background-color: var(--accent-ochre);
+  border: 2px solid var(--accent-ochre);
+  color: #fff;
+}
+
+.btn-ochre:hover {
+  background-color: #b08a2e;
+  border-color: #b08a2e;
+}
+
+.btn-ochre-outline {
+  background: transparent;
+  color: var(--accent-ochre);
+  border: 2px solid var(--accent-ochre);
+}
+
+.btn-ochre-outline:hover {
+  background-color: var(--accent-ochre);
+  color: #fff;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 768px) {
+  .hero { height: 300px; }
+  .hero-overlay .hero-inner { padding: 0 1.25rem; }
+
+  .people-cards {
+    grid-template-columns: 1fr;
+  }
 }

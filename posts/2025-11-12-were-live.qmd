@@ -1,9 +1,0 @@
----
-title: "We’re live!"
-description: "Why this site exists and what to expect."
-date: 2025-11-12
-author: Lorenzo Nava
-categories: [announcement]
----
-
-Welcome! This website is built with **Quarto** and hosted on **GitHub Pages**.

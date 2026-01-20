@@ -4,17 +4,52 @@ title: People
 
 ## Leadership
 
-<div class="people-grid">
-  <div class="person">
-    ![](assets/people/LN.jpg){.headshot}
-    **Lorenzo Nava**  
-    AI+ Senior Fellow, King’s College London  
-    <span class="role">Group Lead</span>
+```{=html}
+<div class="person-card">
+  <img src="assets/people/LN.jpg" class="person-photo" alt="Lorenzo Nava">
+
+  <div class="person-info">
+    <div class="person-role">AI+ Academic Senior Fellow</div>
+    <div class="person-name">Lorenzo Nava</div>
+    <div class="person-topics">
+      Deep Learning, Remote Sensing, and Numerical Modelling for geohazard prediction and response<br>
+    </div>
+  </div>
+</div>
+```
+
+## Co-supervised
+
+```{=html}
+<div class="people-cards">
+  <div class="person-card">
+    <img src="assets/people/YD.jpg" class="person-photo" alt="Yingbo Dong">
+
+    <div class="person-info">
+      <div class="person-role">PhD</div>
+      <div class="person-name">Yingbo Dong</div>
+      <div class="person-topics">
+        Deep Learning and Remote Sensing for ground motion classification and forecasting<br>
+      </div>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="assets/people/SK.jpg" class="person-photo" alt="Sankalp Kapur">
+
+    <div class="person-info">
+      <div class="person-role">MPhil</div>
+      <div class="person-name">Sankalp Kapur</div>
+      <div class="person-topics">
+        Deep Learning and LiDAR to detect slow-moving landslides<br>
+      </div>
+    </div>
   </div>
 </div>
 
-## Members
-We are currently recruiting. See [Join Us](join-us.qmd).
+```
 
-## Collaborators & Affiliates
-List collaborators here.
+
+---
+
+We are currently recruiting and open to visiting researchers and students. See [Join Us](join-us.qmd).

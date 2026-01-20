@@ -1,24 +1,42 @@
-![](assets/hero.png){.hero-banner}
-
 ---
 title: "Hazard Systems Research Group"
 page-layout: full
+page-class: home
+format:
+  html:
+    title-block: false
+    toc: false
 ---
 
+ 
+```{=html}
 <div class="hero">
-  <span class="pill">King’s College London</span>
-  <h1>Hazard Systems Research Group (HazSys)</h1>
-  <p><strong>AI-enabled multihazard forecasting, early warning systems, and response.</strong></p>
-  <p>
-    We develop methods and tools that help anticipate complex hazard events, support effective warning,
-    and improve decision-making for response and resilience.
-  </p>
+  <img src="assets/hero.jpeg" alt="Hazard Systems Research Group hero image">
+  <div class="hero-overlay">
+    <div class="hero-inner">
+
+      <h1 class="hero-title">
+        <span class="t-strong">King's Hazard Systems</span>
+        <span class="t-soft">Research Group</span>
+      </h1>
+
+      <p class="hero-tagline">
+        AI-enabled multi-hazard forecasting, early warning systems, and response
+      </p>
+
+      <p class="hero-cta">
+        <a class="btn btn-ochre" href="projects.qmd">Projects</a>
+        <a class="btn btn-outline-light" href="join-us.qmd">Join us</a>
+      </p>
+
+    </div>
+  </div>
 </div>
 
 <div class="cards">
   <div class="card">
-    <h3>Multihazard Forecasting</h3>
-    <p>AI models for interacting hazards, cascading effects, uncertainty, and real-time prediction.</p>
+    <h3>Multi-hazard Forecasting</h3>
+    <p>AI models for interacting hazards, cascading effects, and uncertainty-aware prediction.</p>
   </div>
 
   <div class="card">
@@ -27,12 +45,33 @@ page-layout: full
   </div>
 
   <div class="card">
-    <h3>Response & Decision Support</h3>
-    <p>Tools that connect forecasts and warnings to operational choices, prioritization, and impact reduction.</p>
+    <h3>Response &amp; Decision Support</h3>
+    <p>Tools connecting forecasts and warnings to operational choices, prioritization, and impact reduction.</p>
   </div>
 </div>
 
-## Working with us
+```
+
+---
+
+## Opportunities
 
 - Interested in a PhD / postdoc / collaboration? See [Join Us](join-us.qmd).
 - For enquiries: **lorenzo.nava@kcl.ac.uk**
+
+
+```{=html}
+<style>
+/* Homepage only: remove any Quarto-generated title/header
+   that appears above the hero image */
+.quarto-title-block,
+#title-block-header,
+header#title-block-header,
+.quarto-title,
+.quarto-title-banner,
+h1.title,
+main > h1:first-of-type {
+  display: none !important;
+}
+</style>
+```

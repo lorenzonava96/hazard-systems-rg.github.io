@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Hazard Systems Research Group"
+  favicon: assets/logo.png
   description: "AI-enabled multihazard forecasting, early warning systems, and response"
   navbar:
     logo: assets/logo.png
@@ -18,8 +19,8 @@ website:
         href: projects.qmd
       - text: Join Us
         href: join-us.qmd
-      - text: Posts
-        href: posts/
+      # - text: Posts
+      #   href: posts/
   page-footer:
     center: |
       © 2026 Hazard Systems Research Group · Built with Quarto · Hosted on GitHub Pages

@@ -2,9 +2,4 @@
 title: Projects
 ---
 
-List selected projects with short blurbs and links. Consider a simple table:
-
-| Project | What | Link |
-|---|---|---|
-| Project A | 1–2 lines | <https://github.com/> |
-| Project B | 1–2 lines | <https://github.com/> |
+Work in progress...

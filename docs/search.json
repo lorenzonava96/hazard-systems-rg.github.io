@@ -4,104 +4,111 @@
     "href": "people.html",
     "title": "People",
     "section": "",
-    "text": "![](assets/people/LN.jpg){.headshot}\n**Lorenzo Nava**  \nAI+ Senior Fellow, King’s College London  \n&lt;span class=\"role\"&gt;Group Lead&lt;/span&gt;"
+    "text": "AI+ Academic Senior Fellow\n    Lorenzo Nava\n    \n      Deep Learning, Remote Sensing, and Numerical Modelling for geohazard prediction and response"
   },
   {
     "objectID": "people.html#leadership",
     "href": "people.html#leadership",
     "title": "People",
     "section": "",
-    "text": "![](assets/people/LN.jpg){.headshot}\n**Lorenzo Nava**  \nAI+ Senior Fellow, King’s College London  \n&lt;span class=\"role\"&gt;Group Lead&lt;/span&gt;"
+    "text": "AI+ Academic Senior Fellow\n    Lorenzo Nava\n    \n      Deep Learning, Remote Sensing, and Numerical Modelling for geohazard prediction and response"
   },
   {
-    "objectID": "people.html#members",
-    "href": "people.html#members",
+    "objectID": "people.html#co-supervised",
+    "href": "people.html#co-supervised",
     "title": "People",
-    "section": "Members",
-    "text": "Members\nWe are currently recruiting. See Join Us."
-  },
-  {
-    "objectID": "people.html#collaborators-affiliates",
-    "href": "people.html#collaborators-affiliates",
-    "title": "People",
-    "section": "Collaborators & Affiliates",
-    "text": "Collaborators & Affiliates\nList collaborators here."
+    "section": "Co-supervised",
+    "text": "Co-supervised\n\n  \n    \n\n    \n      PhD\n      Yingbo Dong\n      \n        Deep Learning and Remote Sensing for ground motion classification and forecasting\n      \n    \n  \n\n  \n    \n\n    \n      MPhil\n      Sankalp Kapur\n      \n        Deep Learning and LiDAR to detect slow-moving landslides\n      \n    \n  \n\n\n\nWe are currently recruiting and open to visiting researchers and students. See Join Us."
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Add a curated list. If you keep a papers.bib, you can render it:\n\n\nOr keep it simple:\n\nTitle, Authors — Venue (Year). PDF · Code\nTitle, Authors — Venue (Year). PDF · Code"
+    "text": "Below is a curated list of peer-reviewed publications related to AI for geohazard forecasting, modelling, and response."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\nNava, L., Mondini, A., Bhuyan, K., Fang, C., Monserrat, O., Novellino, A., & Catani, F. (2026).\nSentinel-1 SAR-based globally distributed landslide detection by deep neural networks.\nGeoscientific Model Development, 19(1), 167–185. DOI\nDong, Y., Nava, L., & Catani, F. (2025).\nImproving ground deformation classification by integrating InSAR time series with geospatial information.\nIEEE Transactions on Geoscience and Remote Sensing, 63, 1–12. DOI\nNava, L., Kuglitsch, M. M., Selby, J., Bray, A., Kennedy, P., Lontsi, J., et al. (2025).\nIntroducing AI practitioners to international standards through online competitions.\nnpj Natural Hazards, 2(1), 102. DOI\nTang, X., Lu, Z., Fan, X., Yan, X., Yuan, X., Li, D., … Nava, L., & Catani, F. (2025).\nMamba for landslide detection: a lightweight model for mapping landslides with very high-resolution images.\nIEEE Transactions on Geoscience and Remote Sensing, 63, 1–17. DOI\nNava, L., Novellino, A., Fang, C., Bhuyan, K., Leeming, K., Alvarez, I. G., et al. (2025).\nAI-driven rapid landslide mapping following the 2024 Hualien City earthquake in Taiwan.\nNatural Hazards and Earth System Sciences, 25(7), 2371–2377. DOI\nDramsch, J., Kuglitsch, M. M., Fernández-Torres, M.-Á., Toreti, A., Albayrak, R. A., Nava, L., et al. (2025).\nExplainability can foster trust in artificial intelligence in geoscience.\nNature Geoscience, 1–3. DOI\nBhuyan, K., Rana, K., Ozturk, U., Nava, L., Rosi, A., Meena, S. R., et al. (2025).\nTowards automatic delineation of landslide source and runout.\nEngineering Geology, 345, 107866. DOI\nFang, C., Fan, X., Wang, X., Nava, L., Zhong, H., Dong, X., et al. (2024).\nA globally distributed dataset of coseismic landslide mapping via multi-source high-resolution remote sensing images.\nEarth System Science Data, 16, 4817–4858. DOI\nNava, L., Tordesillas, A., Qian, G., & Catani, F. (2024).\nDisplacement residuals reveal landslide regime shifts.\nLandslides, 1–16. DOI\nNava, L., Carraro, E., Reyes-Carmona, C., Puliero, S., Bhuyan, K., Rosi, A., et al. (2023).\nLandslide displacement forecasting using deep learning and monitoring data across selected sites.*\nLandslides, 1–19. DOI\nNava, L., Bhuyan, K., Meena, S. R., Monserrat, O., & Catani, F. (2022).\nRapid mapping of landslides on SAR data by attention U-Net.\nRemote Sensing, 14(6), 1449. DOI\nNava, L., Cuevas, M., Meena, S. R., Catani, F., & Monserrat, O. (2022).\nArtisanal and small-scale mine detection in semi-desertic areas by improved U-Net.\nIEEE Geoscience and Remote Sensing Letters, 19, 1–5. DOI\nNava, L., Monserrat, O., & Catani, F. (2022).\nImproving landslide detection on SAR data through deep learning.\nIEEE Geoscience and Remote Sensing Letters, 19, 1-5. DOI"
+  },
+  {
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
+    "title": "Publications",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nCatani, F., Nava, L., & Bhuyan, K. (2025).\nArtificial intelligence applications for landslide mapping and monitoring on EO data.\nIn Earth Observation Applications to Landslide Mapping, Monitoring and Modeling (pp. 119–145). Elsevier. DOI"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "List selected projects with short blurbs and links. Consider a simple table:\n\n\n\nProject\nWhat\nLink\n\n\n\n\nProject A\n1–2 lines\nhttps://github.com/\n\n\nProject B\n1–2 lines\nhttps://github.com/"
-  },
-  {
-    "objectID": "posts/2025-11-12-were-live.html",
-    "href": "posts/2025-11-12-were-live.html",
-    "title": "We’re live!",
-    "section": "",
-    "text": "Welcome! This website is built with Quarto and hosted on GitHub Pages."
+    "text": "Work in progress…"
   },
   {
     "objectID": "join-us.html",
     "href": "join-us.html",
     "title": "Join Us",
     "section": "",
-    "text": "We welcome collaborators and applicants interested in AI-enabled multihazard forecasting, early warning systems, and response."
+    "text": "We welcome collaborators and applicants interested in AI-enabled multi-hazard forecasting, early warning systems, and decision support.\nOur work combines machine learning, physical modelling, and uncertainty analysis to support risk-informed decisions for natural hazards."
   },
   {
-    "objectID": "join-us.html#what-we-work-on",
-    "href": "join-us.html#what-we-work-on",
+    "objectID": "join-us.html#research-themes",
+    "href": "join-us.html#research-themes",
     "title": "Join Us",
-    "section": "What we work on",
-    "text": "What we work on\n\nMultihazard and cascading event modelling\nMachine learning for hazard detection and forecasting\nUncertainty-aware prediction and evaluation\nEnd-to-end warning pipelines and decision support\nOpen tools, reproducible science, and real-world impact"
+    "section": "Research themes",
+    "text": "Research themes\n\nMulti-hazard and cascading event modelling\nMachine learning for hazard detection and forecasting\nUncertainty-aware prediction and evaluation\nEnd-to-end warning pipelines and decision support\nOpen tools, reproducible science, and real-world impact"
   },
   {
-    "objectID": "join-us.html#who-we-are-looking-for",
-    "href": "join-us.html#who-we-are-looking-for",
+    "objectID": "join-us.html#opportunities",
+    "href": "join-us.html#opportunities",
     "title": "Join Us",
-    "section": "Who we are looking for",
-    "text": "Who we are looking for\n\nPhD / MSc students\nStrong quantitative background (e.g., ML, statistics, physics, engineering, geoscience) and interest in hazards/resilience.\n\n\nPostdocs\nEvidence of independent research, strong writing, and a clear agenda aligned with our themes.\n\n\nResearch software / engineering\nExperience with ML tooling, data pipelines, and reproducibility."
+    "section": "Opportunities",
+    "text": "Opportunities\n\nPhD / MSc students\nApplicants with a strong quantitative background (e.g. machine learning, statistics, physics, engineering, or geoscience) and an interest in hazards and resilience.\n\n\nPostdoctoral researchers\nResearchers with evidence of independent work, strong writing, and a clear research agenda aligned with the group’s themes.\nWe are happy to support applications to competitive postdoctoral fellowships, including:\n\nMarie Skłodowska-Curie Postdoctoral Fellowships\nNewton International Fellowships\nRoyal Society or UKRI-funded schemes (where applicable)\n\n\n\nResearch software / engineering\nResearchers with experience in machine learning tooling, data pipelines, and reproducible research."
   },
   {
-    "objectID": "join-us.html#how-to-reach-out",
-    "href": "join-us.html#how-to-reach-out",
+    "objectID": "join-us.html#how-to-get-in-touch",
+    "href": "join-us.html#how-to-get-in-touch",
     "title": "Join Us",
-    "section": "How to reach out",
-    "text": "How to reach out\nEmail lorenzo.nava@kcl.ac.uk with: - a short paragraph describing your interest, - a CV, - (optional) a link to papers / GitHub, - (optional) 1–2 project ideas."
+    "section": "How to get in touch",
+    "text": "How to get in touch\nPlease email lorenzo.nava@kcl.ac.uk with:\n\na short paragraph describing your interest,\na CV,\n(optional) links to publications or GitHub,\n(optional) one or two project ideas."
   },
   {
     "objectID": "join-us.html#funding",
     "href": "join-us.html#funding",
     "title": "Join Us",
     "section": "Funding",
-    "text": "Funding\nIf you already have (or are pursuing) funding, mention the scheme and timelines."
+    "text": "Funding\nIf you already hold funding or are planning to apply for a specific scheme, please mention the programme and expected timelines."
   },
   {
-    "objectID": "index.html#working-with-us",
-    "href": "index.html#working-with-us",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Hazard Systems Research Group",
-    "section": "Working with us",
-    "text": "Working with us\n\nInterested in a PhD / postdoc / collaboration? See Join Us.\nFor enquiries: lorenzo.nava@kcl.ac.uk"
+    "section": "",
+    "text": "AI-enabled multi-hazard forecasting, early warning systems, and response\n      \n\n      \n        Projects\n        Join us"
+  },
+  {
+    "objectID": "index.html#opportunities",
+    "href": "index.html#opportunities",
+    "title": "Hazard Systems Research Group",
+    "section": "Opportunities",
+    "text": "Opportunities\n\nInterested in a PhD / postdoc / collaboration? See Join Us.\nFor enquiries: lorenzo.nava@kcl.ac.uk"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The Hazard Systems Research Group (HazSys) conducts research on the modelling and analysis of multihazard risk and resilience, with a particular focus on the use of artificial intelligence and data-driven methods to understand complex hazard systems.\nOur research focuses on AI-enabled multihazard forecasting, early warning systems, and response, combining data-driven models with system-level perspectives on risk and resilience.\n\n\n\nMultihazard and cascading risk modelling\n\nAI and machine learning for hazard analysis\n\nSystem-level approaches to risk and resilience\n\nDecision support for risk reduction and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
+    "text": "The Hazard Systems Research Group (HazSys) conducts research on the use of artificial intelligence for disaster forecasting, modelling, and response.\nWe develop methods to anticipate and analyse interacting natural hazards, with a focus on AI-enabled forecasting, early warning systems, and decision support for disaster risk reduction. Our work combines machine learning with system-level modelling to better understand cascading impacts, uncertainty, and operational constraints.\nHazSys is based at King’s College London, spanning the King’s Institute for Artificial Intelligence and the Department of Geography, and works at the interface of AI, Earth systems, and disaster risk.\n\n\n\nAI-enabled multi-hazard forecasting and early warning\n\nModelling of cascading and compound disasters\n\nUncertainty-aware prediction and evaluation\n\nDecision support for disaster response and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
   },
   {
     "objectID": "about.html#hazard-systems-research-group",
     "href": "about.html#hazard-systems-research-group",
     "title": "About",
     "section": "",
-    "text": "The Hazard Systems Research Group (HazSys) conducts research on the modelling and analysis of multihazard risk and resilience, with a particular focus on the use of artificial intelligence and data-driven methods to understand complex hazard systems.\nOur research focuses on AI-enabled multihazard forecasting, early warning systems, and response, combining data-driven models with system-level perspectives on risk and resilience.\n\n\n\nMultihazard and cascading risk modelling\n\nAI and machine learning for hazard analysis\n\nSystem-level approaches to risk and resilience\n\nDecision support for risk reduction and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
+    "text": "The Hazard Systems Research Group (HazSys) conducts research on the use of artificial intelligence for disaster forecasting, modelling, and response.\nWe develop methods to anticipate and analyse interacting natural hazards, with a focus on AI-enabled forecasting, early warning systems, and decision support for disaster risk reduction. Our work combines machine learning with system-level modelling to better understand cascading impacts, uncertainty, and operational constraints.\nHazSys is based at King’s College London, spanning the King’s Institute for Artificial Intelligence and the Department of Geography, and works at the interface of AI, Earth systems, and disaster risk.\n\n\n\nAI-enabled multi-hazard forecasting and early warning\n\nModelling of cascading and compound disasters\n\nUncertainty-aware prediction and evaluation\n\nDecision support for disaster response and adaptation\n\n\n\n\nThe group is led by Lorenzo Nava, AI+ Academic Senior Fellow at King’s College London.\n\n\n\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
   }
 ]
