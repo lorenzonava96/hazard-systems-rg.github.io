@@ -405,6 +405,112 @@ main li { margin-bottom: 0.25rem; }
   margin-top: 3rem;
 }
 
+/* =========================================================
+   PROJECTS
+   ========================================================= */
+
+/* Projects / Research cards */
+.project-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card{
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.25rem 1.1rem;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  min-width: 0;
+}
+
+.project-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(16, 24, 40, 0.10);
+  border-color: rgba(16, 24, 40, 0.18);
+}
+
+.project-title{
+  color: var(--ink);
+  font-weight: 750;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  margin: 0 0 .5rem 0;
+}
+
+.project-text{
+  color: #4d5966;
+  font-size: .95rem;
+  line-height: 1.55;
+  margin: 0 0 .9rem 0;
+}
+
+/* Optional: small "meta" line (methods, collaborators, etc.) */
+.project-meta{
+  color: #7b8794;
+  font-size: .82rem;
+  margin: 0 0 .75rem 0;
+}
+
+/* Tags */
+.project-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: .25rem;
+}
+
+.project-tags span{
+  display: inline-block;
+  padding: .25rem .55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(16, 24, 40, 0.12);
+  background: rgba(16, 24, 40, 0.03);
+  color: #4d5966;
+  font-size: .78rem;
+  line-height: 1;
+}
+
+/* Clickable card variant */
+.project-card-link{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-image{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: .85rem;
+}
+
+.project-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 
+.project-image.placeholder{
+  background: linear-gradient(
+    135deg,
+    rgba(16, 24, 40, 0.04),
+    rgba(16, 24, 40, 0.08)
+  );
+  border: 1px dashed rgba(16, 24, 40, 0.15);
+}
 
+/* Mobile tweaks */
+@media (max-width: 768px){
+  .project-cards{
+    gap: 1.1rem;
+  }
+  .project-card{
+    padding: 1.1rem 1.1rem 1rem;
+  }
+}
