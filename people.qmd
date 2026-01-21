@@ -54,7 +54,7 @@ title: People
 
 ```
 
-## Affiliates
+## Collaborators
 
 ```{=html}
 <div class="people-cards">
