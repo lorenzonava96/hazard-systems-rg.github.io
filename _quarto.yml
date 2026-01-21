@@ -11,10 +11,10 @@ website:
     right:
       - text: About
         href: about.qmd
-      - text: Research
-        href: research.qmd
       - text: People
         href: people.qmd
+      - text: Research
+        href: research.qmd
       - text: Publications
         href: publications.qmd
       - text: Join Us
