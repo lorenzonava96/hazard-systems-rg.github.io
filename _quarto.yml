@@ -21,15 +21,16 @@ website:
         href: join-us.qmd
       # - text: Posts
       #   href: posts/
-  page-footer:
-    center: |
-      © 2026 Hazard Systems Research Group · Built with Quarto · Hosted on GitHub Pages
+  # page-footer:
+  #   center: |
+  #     © 2026 Hazard Systems Research Group · Built with Quarto · Hosted on GitHub Pages
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    # include-after-body: _includes/footer.html
 
 metadata-files:
   - _meta.yml

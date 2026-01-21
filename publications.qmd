@@ -64,3 +64,4 @@ Below is a curated list of peer-reviewed publications related to
 - Catani, F., **Nava, L.**, & Bhuyan, K. (2025).  
   *Artificial intelligence applications for landslide mapping and monitoring on EO data.*  
   In **Earth Observation Applications to Landslide Mapping, Monitoring and Modeling** (pp. 119–145). Elsevier.  [DOI](https://doi.org/10.1016/B978-0-12-823868-4.00007-6)
+

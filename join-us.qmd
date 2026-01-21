@@ -28,15 +28,42 @@ aligned with the group’s themes.
 
 We are happy to support applications to competitive postdoctoral fellowships, including:
 
-- Marie Skłodowska-Curie Postdoctoral Fellowships
-- Newton International Fellowships
-- Royal Society or UKRI-funded schemes (where applicable)
+```{=html}
+<ul>
+  <li>
+    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" target="_blank" rel="noopener">
+      Marie Skłodowska-Curie Postdoctoral Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://www.leverhulme.ac.uk/early-career-fellowships" target="_blank" rel="noopener">
+      Leverhulme Early Career Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://royalcommission1851.org/fellowships/research-fellowships" target="_blank" rel="noopener">
+      1951 Research Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://royalsociety.org/grants-schemes-awards/grants/newton-international/" target="_blank" rel="noopener">
+      Newton International Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://www.ukri.org/opportunity/" target="_blank" rel="noopener">
+      Royal Society or UKRI-funded schemes
+    </a>
+    (where applicable)
+  </li>
+</ul>
+```
 
 ### Research software / engineering
 Researchers with experience in machine learning tooling, data pipelines, and reproducible research.
 
 ## How to get in touch
-Please email **lorenzo.nava@kcl.ac.uk** with:
+Please email **lorenava996@gmail.com** with:
 
 - a short paragraph describing your interest,
 - a CV,
@@ -46,3 +73,4 @@ Please email **lorenzo.nava@kcl.ac.uk** with:
 ## Funding
 If you already hold funding or are planning to apply for a specific scheme, please mention
 the programme and expected timelines.
+
